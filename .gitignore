@@ -1,2 +1,37 @@
+# =========================================================================
+# COURSERA SPECIALIZATION SPECIFIC EXCLUSIONS
+# =========================================================================
+# Block raw dataset folders and individual h5 tracking stores
+datasets/
+*.h5
+*.hdf5
+
+# Block course utility files and helper automation scripts
+lr_utils.py
+
+# =========================================================================
+# PYTHON & ENVIRONMENT ARTIFACTS
+# =========================================================================
+# Block compiled byte-code files and runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Block local virtual environments and package install locations
+.venv/
+venv/
+env/
+ml_env/
+ENV/
+
+# =========================================================================
+# DEVELOPMENT ENVIRONMENT CONFIGURATIONS
+# =========================================================================
+# Block operating system background indexing configurations
+.DS_Store
+Thumbs.db
+
+# Block local editor workspace tracking modules
 .vscode/
-.h5
+.idea/
+.ipynb_checkpoints/
